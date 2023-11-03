@@ -1,0 +1,22 @@
+applicationName: patch-portal
+replicaCount: 1
+
+environment:
+  name: production
+  hostPrefix:
+
+ui:
+  name: ui
+  image:
+    repository: jonathanleedev/patch-portal-ui
+    tag: 0.1.0
+    pullPolicy: Always
+  port: 80
+
+api:
+  name: api
+  image:
+    repository: jonathanleedev/patch-portal-api
+    tag: 0.1.0
+    pullPolicy: Always
+  port: 3000

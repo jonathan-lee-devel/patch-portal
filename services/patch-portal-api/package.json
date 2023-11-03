@@ -1,0 +1,22 @@
+{
+  "name": "patch-portal-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-lee-devel/patch-portal.git"
+  },
+  "keywords": [
+    "patch-portal"
+  ],
+  "author": "Jonathan Lee <jonathan.lee.devel@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jonathan-lee-devel/patch-portal/issues"
+  },
+  "homepage": "https://github.com/jonathan-lee-devel/patch-portal#readme"
+}

@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: "0.1"
+description: Customer-to-business interaction platform aimed at enterprise / B2B solutions
+name: patch-portal
+version: 0.1.0
+sources:
+  - https://github.com/jonathan-lee-devel/patch-portal
+dependencies:
+  - name: nginx-ingress
+    version: 1.41.2
+    repository: https://charts.helm.sh/stable
