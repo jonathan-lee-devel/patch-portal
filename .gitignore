@@ -98,12 +98,12 @@ dist
 services/api/dist
 services/api/node_modules
 
-services/ui/dist
-services/ui/node_modules
+services/patch-portal-ui/dist
+services/patch-portal-ui/node_modules
 
-services/ui/cypress/videos
-services/ui/cypress/screenshots
-services/ui/.angular
+services/patch-portal-ui/cypress/videos
+services/patch-portal-ui/cypress/screenshots
+services/patch-portal-ui/.angular
 
 # Gatsby files
 .cache/
